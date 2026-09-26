@@ -10,3 +10,8 @@ DB_PORT = int(os.getenv("DB_PORT", "3306"))
 DB_USER = os.getenv("DB_USER")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
 DB_NAME = os.getenv("DB_NAME")
+
+KONGA_API_KEY = os.getenv("KONGA_API_KEY")
+
+SCRAPER_TIMEOUT = int(os.getenv("SCRAPER_TIMEOUT", "30"))
+SCRAPER_LIMIT = int(os.getenv("SCRAPER_LIMIT", "20"))
